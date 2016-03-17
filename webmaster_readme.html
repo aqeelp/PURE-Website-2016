@@ -1,0 +1,155 @@
+<html>
+<body>
+
+<h1>PURE - WEBSITE DOCUMENTATION</h1>
+<p>Documentation of website features and instructions for maintenance.</p>
+
+<hr>
+<h2>I. Website Features and intentions</h2>
+<p>The following describes the pages of the website as well as their intended purposes.</p>
+
+<!-- ============================ -->
+<h4>i. HOME PAGE</h4>
+<pre>index.html</pre>
+<p>
+The greeting page that visiters are first exposed to.<br>
+Features a slideshow of recent band pictures with information about the group overlayed.<br>
+Gives a short static blurb about the band.<br>
+Displays a short feed of upcoming events, pulled dynamically from a Google calendar.
+</p>
+
+<h4>ii. REPERTOIRE</h4> 
+<pre>repertoire.html</pre>
+<p>
+This page is mainly for those interested in hiring us and those interested in auditioning for us.<br>
+A short blurb is included about our song selection process for auditionees.<br>
+A list of every song ever performed by PURE (that has been documented) is included.<br>
+</p>
+
+
+<h4>iii. MEMBER BIOS</h4> 
+<pre>members.html</pre>
+<p>
+This page is for getting to know the band and putting faces to the name.<br>
+Each member is listed by instrument, and visitors can see information about the members in a clean fashion.<br>
+The current officers are also listed as well, paying service to them as important members.<br>
+</p>
+
+<h4>iv. ALUMNI</h4>
+<pre>alumni.html</pre>
+<p>
+This page provides historical information about the past iterations of PURE.<br>
+Anybody that has ever been a member of PURE should be included on this page.
+</p>
+
+<h4>v. AUDITIONS</h4>
+<pre>auditions.html</pre>
+<p>
+This page is directly intended for those interested in auditioning.<br>
+Includes dates/times about the next audition period (with links for scheduling if possible).<br>
+Describes the audition process, the what and the who that are involved.<br>
+Clarifies the audition process for different instruments.
+</p>
+
+<h4>vi. UPCOMING SHOWS</h4>
+<pre>upcoming_shows.html</pre>
+<p>
+Lists all of PURE's uncoming performances.<br>
+This should include all events that are open to the public or not (but NOT Shirley and the Tilghmans gigs).<br>
+It is important that this page includes a lot of content - we want to appear busy.
+</p>
+
+<h4>vii. PAST SHOWS</h4>
+<pre>past_shows.html</pre>
+<p>
+Exposes documentation of all previous shows.<br>
+Photo galleries of all past shows are easily accessible.<br>
+Links to Youtube playlists corresponding to each show are available as well.
+</p>
+
+<h4>viii. CONTACT US</h4>
+<pre>contact.html</pre>
+<p>
+Directs users that are looking to get in touch with us.<br>
+Prospective auditionees and those looking to hire are directed to the current President.<br>
+Those looking to help out with photography, design, etc. are directed to the current publicity chair.<br>
+All other inquiries are directed to the current President.
+</p>
+
+<!-- ============================ -->
+<hr>
+<h2>II. Website Maintenance and Revisions</h2>
+<p>The following describes how to update the website to reflect the current state of the band.</p>
+
+<h4>i. MEMBER BIOS</h4>
+<p>To maintain the member bios, updates must be made to members.html, json/member_data.json, and img/members/.<br>
+Information between these files and folders are linked by netID</p>
+
+<pre>members.html</pre>
+<p>
+On this page, all current members are listed by instrument.<br>
+Within this file, there are a series of div's each of the class list-group.<br>
+In Bootstrap, this signifies a new list. These lists do not have automatic headers, so the first element is manually made to act as a header.<br>
+The first child element of these div's signify which instrument the members of this list mainly play.<br>
+Each following member should be of the following format (view source code):<br><br>
+<a class="list-group-item member" href="#" id="aqeelp" data-toggle="modal" data-target="#member-info-modal">Aqeel Phillips '17</a><br><br>
+The ID of this element MUST be the users netID. The netID is used to look up members' images.<br>
+These 'a' elements do not link anywhere specifically, but do open each member's respective modal dialog, which is populated from json/member_data.json.
+</p>
+
+<pre>json/member_data.json</pre>
+<p>
+Each member has an entry in the 'members' object of this JSON file.<br>
+When members join or leave the group, they should be added or removed to this JSON file.<br>
+Changes made to this JSON file will be automatically reflected in the member modal dialog on members.html (note: members must be updated in the members.html lists manually).<br>
+In this file, each member entry must have the <b>exact</b> same fields. They must not be misspelled, nor should any be omitted.<br>
+It is not important that the member list is in alphabetical order, but it helps with organization.
+</p>
+
+<pre>img/members/</pre>
+<p>
+This folder contains all current member portraits for their bios.<br>
+The title of each image file should be of the format: <i>NETID</i>.jpg.<br>
+The file extension must be of <i>.jpg</i>, not <i>.jpeg</i> or anything else.
+</p>
+
+<h4>ii. REPERTOIRE</h4>
+<p>For ease of updating, the all-time PURE repertoire is held in the following csv file:</p>
+
+<pre>csv/repertoire.csv</pre>
+<p>
+This file contains two columns: song titles and their respective artists.<br>
+This file should have no headers, it is purely data.<br>
+This file does not need to be in any particular order, but it is helpful to sort it after making additions.</br>
+The format of this file should not be altered (i.e., resave it in whatever format that your editor deemed best). The consequences of changing this are untested.
+</p>
+
+<pre>repertoire.html</pre>
+<p>
+Jquery code in this file automatically pulls in all of the songs from the repertoire.csv file.<br>
+There is a list object that is automatically populated from the responses received from the csv file.<br>
+The jquery code concludes by sorting the list by title, descending.
+</p>
+
+<h4>iii. UPCOMING SHOWS</h4>
+<p>Upcoming events are automatically pulled from Google Calendars owned by PURE@PRINCETON.EDU.</p>
+
+<pre>calendar.google.com</pre>
+<p>
+The calendars owned by PURE@ that are relevant to this site are 'PERFORMANCES' and 'EVENTS'.<br>
+The performances calendar is strictly for shows.<br>
+The events calendar contains all PURE events that are NOT shows - open houses, auditions, etc.<br>
+There should not be overlap in the events between these two calendars (i.e., no duplicates between them).
+</p>
+
+<pre>index.html & upcoming_events.html</pre>
+<p>
+Jquery code in these files automatically pull in events via the Google Calendar API.<br>
+The code for retrieving the events and generating the html elements are exactly the same.<br>
+Any changes made to the code of one should probably be reflected in the other as well.<br>
+NOTE: the index.html API call caps responses at 2. upcoming_events.html should show ALL upcoming events.
+</p>
+
+
+</body>
+</html>

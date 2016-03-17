@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bios - Princeton University Rock Ensemble</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://bootswatch.com/superhero/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+    <script src="https://bootswatch.com/bower_components/bootstrap/dist/js/bootstrap.min.js"></script> 
+
+    <!-- Custom style: -->
+    <link rel="stylesheet" href="./css/pure-css.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <!-- Favicon: -->
+    <link rel="icon" 
+      type="image/png" 
+      href="./img/favicon.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $.getJSON("./json/member_data.json", function(json) {
+          $(".member").click(function() {
+            for (var i = 0; i < json.members.length; i++) {
+              var member = json.members[i];
+              if (member.netid == event.target.id) {
+                $("#modal-name").html(member.name);
+                $("#modal-year").html(member.year);
+                $("#modal-instruments").html(member.instruments);
+                $("#modal-major").html(member.major);
+                $("#modal-hometown").html(member.hometown);
+                $("#modal-birthday").html(member.birthday);
+                $("#modal-bio").html(member.bio);
+
+                var filepath = "./img/members/" + member.netid + ".jpg";
+                $("#modal-image").attr("src", filepath);
+              }
+            }
+          });
+        });
+      });
+    </script>
+
+  </head>
+
+  <body>
+
+    <!-- Navbar
+      ================================================ -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="./index.html" class="navbar-brand">PURE</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="./repertoire.html">Repertoire</a>
+            </li>
+
+            <li class="dropdown active">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="members">Members <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="members">
+                <li><a href="#">Members Bios</a></li>
+                <li><a href="./alumni.html">Alumni</a></li>
+                <li><a href="./auditions.html">Auditions</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="shows">Shows <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="shows">
+                <li><a href="./upcoming_shows.html">Upcoming Shows</a></li>
+                <li><a href="./past_shows.html">Past Shows</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./contact.html">Contact Us</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+    <!-- Members
+      ================================================ -->
+      <div class="bs-docs-section clearfix">
+
+        <div class="page-header" id="banner">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1>Our Members</h1>
+            </div>
+        </div>
+
+        <div class="row"> <!-- Jumbotron -->
+          <div class="col-lg-12">
+            <!-- <div class="page-header" id="invisible-spacer"></div> -->
+
+            <div class="bs-component">
+              <div class="well well-sm" style="margin-left: 5%; margin-right: 5%;">
+                <center><img class="banner-photo" src="./img/nov_2015_group.jpg"></center>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- All members -->
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="bs-component">
+              <div class="list-group">
+                <div class="list-group-item"><h4>Vocalists</h4></div>
+                <a class="list-group-item member" href="#" id="adamjh" data-toggle="modal" data-target="#member-info-modal">Adam Hudnut-Beumler '17</a>
+                <a class="list-group-item member" href="#" id="amcole" data-toggle="modal" data-target="#member-info-modal">Avanthi Cole '18</a>
+                <a class="list-group-item member" href="#" id="connorjs" data-toggle="modal" data-target="#member-info-modal">Connor Stonesifer '16</a>
+                <a class="list-group-item member" href="#" id="fiorae" data-toggle="modal" data-target="#member-info-modal">Fiora Elbers-Tibbitts '18</a>
+                <a class="list-group-item member" href="#" id="kfrorer" data-toggle="modal" data-target="#member-info-modal">Katie Frorer '18</a>
+                <a class="list-group-item member" href="#" id="wshin" data-toggle="modal" data-target="#member-info-modal">Wonshik Shin '19</a>
+              </div>
+
+              <div class="list-group">
+                <div class="list-group-item"><h4>Drummers</h4></div>
+                <a class="list-group-item member" href="#" id="btan" data-toggle="modal" data-target="#member-info-modal">Brandon Joel Tan '19</a>
+                <a class="list-group-item member" href="#" id="kdhillon" data-toggle="modal" data-target="#member-info-modal">Kyle Dhillon '16</a>
+                <a class="list-group-item member" href="#" id="ndon" data-toggle="modal" data-target="#member-info-modal">Nicky Don '19</a>
+                <a class="list-group-item member" href="#" id="rhburton" data-toggle="modal" data-target="#member-info-modal">Russell Burton '17</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <div class="bs-component">
+              <div class="list-group">
+                <div class="list-group-item"><h4>Guitarists</h4></div>
+                <a class="list-group-item member" href="#" id="ek7" data-toggle="modal" data-target="#member-info-modal">Edmond Kim '18</a>
+                <a class="list-group-item member" href="#" id="gcabalga" data-toggle="modal" data-target="#member-info-modal">Guillermo Mart&iacute;nez Cabalga '17</a>
+                <a class="list-group-item member" href="#" id="hgdavis" data-toggle="modal" data-target="#member-info-modal">Harrison Davis '18</a>
+                <a class="list-group-item member" href="#" id="jarecki" data-toggle="modal" data-target="#member-info-modal">Jasper Jarecki '19</a>
+                <a class="list-group-item member" href="#" id="jh34" data-toggle="modal" data-target="#member-info-modal">Jeffrey Han '17</a>
+                <a class="list-group-item member" href="#" id="kduffey" data-toggle="modal" data-target="#member-info-modal">Kyle Duffey '19</a>
+                <a class="list-group-item member" href="#" id="rmindel" data-toggle="modal" data-target="#member-info-modal">Rebecca Mindel '19</a>
+                <a class="list-group-item member" href="#" id="nellesen" data-toggle="modal" data-target="#member-info-modal">Tyler Nellesen '17</a>
+                <a class="list-group-item member" href="#" id="ysagiv" data-toggle="modal" data-target="#member-info-modal">Yotam Sagiv '18</a>
+              </div>
+
+              <div class="list-group">
+                <div class="list-group-item"><h4>Horns</h4></div>
+                <a class="list-group-item member" href="#" id="eeglash" data-toggle="modal" data-target="#member-info-modal">Elliott Eglash '17</a>
+                <a class="list-group-item member" href="#" id="pjr2" data-toggle="modal" data-target="#member-info-modal">Peter Russell '19</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <div class="bs-component">
+              <div class="list-group">
+                <li class="list-group-item"><h4>Bassists</h4></li>
+                <a class="list-group-item member" href="#" id="aesantos" data-toggle="modal" data-target="#member-info-modal">Alex Santos '19</a>
+                <a class="list-group-item member" href="#" id="aqeelp" data-toggle="modal" data-target="#member-info-modal">Aqeel Phillips '17</a>
+                <a class="list-group-item member" href="#" id="jm43" data-toggle="modal" data-target="#member-info-modal">Joshua Murray '18</a>
+                <a class="list-group-item member" href="#" id="kyo" data-toggle="modal" data-target="#member-info-modal">Kwasi Oppong-Badu '18</a>
+              </div>
+
+              <div class="list-group">
+                <div class="list-group-item"><h4>Keyboardists</h4></div>
+                <a class="list-group-item member" href="#" id="bataylor" data-toggle="modal" data-target="#member-info-modal">Ben Taylor '19</a>
+                <a class="list-group-item member" href="#" id="egordon" data-toggle="modal" data-target="#member-info-modal">Ethan Gordon '17</a>
+                <a class="list-group-item member" href="#" id="ffjiang" data-toggle="modal" data-target="#member-info-modal">Frank Jiang '17</a>
+                <a class="list-group-item member" href="#" id="kpmurphy" data-toggle="modal" data-target="#member-info-modal">Kieran Murphy '19</a>
+              </div>              
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal dialog -->
+        <div class="modal fade" id="member-info-modal" role="dialog">
+          <div class="modal-dialog modal-lg">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title" id="modal-name"></h3>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-12" id="member-image-container">
+                    <img id="modal-image" />
+                  </div>
+
+                  <div class="col-lg-6 col-md-6 col-sm-8" id="member-modal-info-container">
+                    <h4>Class Year</h4><p id="modal-year"></p>
+                    <h4>Instrument(s)</h4><p id="modal-instruments"></p>
+                    <h4>Major</h4><p id="modal-major"><p>
+                    <h4>Hometown</h4><p id="modal-hometown"><p>
+                    <h4>Birthday</h4><p id="modal-birthday"><p>
+                    <h4>Bio</h4><p id="modal-bio"><p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- Officers -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h2 id="navs">Current Officers</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 officer-column">
+            <h3>President</h3>
+            <h4>Aqeel Phillips '17</h4>
+            <img class="officer-portrait" src="./img/members/aqeelp.jpg">
+
+            <h3>Music Director</h3>
+            <h4>Alex Santos '19</h4>
+            <img class="officer-portrait" src="./img/members/aesantos.jpg">
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 officer-column">
+            <h3>Vice President</h3>
+            <h4>Joshua Murray '18</h4>
+            <img class="officer-portrait" src="./img/members/jm43.jpg">
+
+            <h3>Music Director</h3>
+            <h4>Kyle Duffey '19</h4>
+            <img class="officer-portrait" src="./img/members/kduffey.jpg">
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 officer-column">
+            <h3>Treasurer</h3>
+            <h4>Peter Russell '19</h4>
+            <img class="officer-portrait" src="./img/members/pjr2.jpg">
+
+            <h3>Publicity Chair</h3>
+            <h4>Rebecca Mindel '19</h4>
+            <img class="officer-portrait" src="./img/members/rmindel.jpg">
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 officer-column">
+            <h3>Stage Manager</h3>
+            <h5 style="padding-top: 2px; padding-bottom: 2px;">Guillermo Mart&iacute;nez Cabalga '17</h4>
+            <img class="officer-portrait" src="./img/members/gcabalga.jpg">
+
+            <h3>Social Chair</h3>
+            <h4>Kieran Murphy '19</h4>
+            <img class="officer-portrait" src="./img/members/kpmurphy.jpg">
+          </div>
+
+        </div>
+
+      </div> <!-- bs-docs-section -->
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+
+            <p>Made by <a href="http://aqeelp.github.io" rel="nofollow">Aqeel Phillips</a></p>
+
+          </div>
+        </div>
+
+      </footer>
+
+    </div> <!-- container -->
+
+  </body>
+</html>

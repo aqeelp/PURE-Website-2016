@@ -1,0 +1,418 @@
+{ "alumni": [
+
+	{
+		"name": "Christina Bott",
+		"id": "christinabott",
+		"year": "2013",
+		"instruments": "Vocals",
+		"major": "French",
+		"hometown": "New York, New York",
+		"birthday": "December 28, 1990",
+		"bio": "Christina is from the land of all things great: New York City. She loves strawberries, tea, chocolate, people, and foreign languages. When she's not trying to confuse you by speaking French, German, Italian or periodically Swedish, she sings with the a cappella group Roaring 20, rows boats on the crew team and bakes brownies and cookies. You can often find her in the Forbes lounge singing Beatles songs with Anthony Sacco, PURE president. Christina is also in love with Mr. Sacco. Despite their height differences (she's 6 ft and he's...well...significantly shorter) true love will conquer all."
+	},
+
+	{
+		"name": "Joseph Edelmann",
+		"id": "joeyedelmann",
+		"year": "2013",
+		"instruments": "Guitar, Vocals",
+		"major": "Economics",
+		"hometown": "Ocean Township, New Jersey",
+		"birthday": "March 15",
+		"offices": "Music Director 2010-12",
+		"bio": "Proudly born and raised on the REAL Jersey Shore (and now thanks to a certain TV cancellation, the only one that matters), Joey first picked up a guitar at age 9, later taking up bass and drums. The gods of rock first enchanted him when his dad played him Led Zeppelin IV, and since then he has voraciously studied as much music (rock and otherwise) as he can get his hands on. He is forever indebted to the one and only Jimi Hendrix, and is a huge fan of Radiohead, Bob Marley, Weezer, and the Foo Fighters, among countless others. He loves Fender Stratocasters but has had several passionate trysts with Gibson instruments.<br><br>In his free time, he enjoys writing music, watching/playing soccer, playing video games, and watching classic films. He would like to thank all of his friends and family for their support, and is proud to be an inaugural member of PURE, which he hopes will one day become a mainstay of Princeton campus culture."
+	},
+
+	{
+		"name": "Desire&eacute; Howry",
+		"id": "desihowry",
+		"year": "2014",
+		"instruments": "Vocals",
+		"major": "East Asian Studies",
+		"hometown": "Memphis, Tennessee",
+		"birthday": "March 14, 1992",
+		"officers": "Graphics Designer 2010-13, Webmaster 2010-12",
+		"bio": "Desire&eacute; Howry prefers to be called Desi. In fact, she has no idea who this Desire&eacute; person even is. She is also unsure of whether or not she should be writing in the third person. Coding for hours makes her a little bit delirious. Nevertheless, Desi is completely psyched to be designing this website for PURE. When she's not singing alto in Roaring 20, at cheer practice, or at the Street, you can find her pulling all-nighters in the Forbes Library with some help from her good friend Red Bull. Desi is secretly in love with guitar player Yuan Chen."
+	},
+
+	{
+		"name": "Dorothy \"Dot\" Mittow",
+		"id": "dorothymittow",
+		"year": "2014",
+		"instruments": "Vocals",
+		"major": "Operations Research and Financial Engineering",
+		"hometown": "Davis, California",
+		"birthday": "September 27, 1992",
+		"offices": "Vice President 2012-13",
+		"bio": "Dorothy Mittow was born and raised in the town of Davis, California. Since the age of 2, many people have tried to inform Dorothy that she is not talking but is actually in fact yelling. She didn't listen to them though, probably because she couldn't hear them over the sound of her own voice. By 8 she had a black belt in Tae Kwon Do, which made for very interesting \"show and tell\" days in her third grade class. By the time she made it to high school she played Varsity Soccer as well as bass clarinet, all  while maintaining the perfect grades necessary to get in to the greatest university in the entire world and being the most popular person at Davis Senior High School. Today she plays rugby at Princeton, in addition to routinely melting audience's faces with rock and roll awesomeness."
+	},
+
+	{
+		"name": "Cory Furlong",
+		"id": "coryfurlong",
+		"year": "2013",
+		"instruments": "Guitar, Bass, Vocals, Trumpet",
+		"major": "Economics",
+		"hometown": "Chester Heights, Pennsylvania",
+		"birthday": "September 30, 1991",
+		"offices": "Treasurer 2010-13, Social Chair 2012-13",
+		"bio": "A self deprecating narcissist, Cory Furlong began his uneventful and mediocre musical career playing a slightly off-key alto saxophone in elementary school. For the good of his high school jazz band, he picked up trumpet and quickly became proficient on the horn after only a few months. He thought he was satisfied with his musical talents until one day he came to the harsh realization that neither of those instruments would make him better looking. So, over the course of the next few years, Cory managed to teach himself guitar, bass and drums just well enough to reach Keith Richards status. He is often quoted as saying, \"I wish now I had taken guitar lessons.\" Either way, he is an avid Pink Floyd/Radiohead fan, and will gladly challenge anyone to a duel for either band's honor. He will use any stage antic necessary to distract the audience from his lack of talent. <br><br>He is also an aspiring economist because that's what the Stones studied."
+	},
+
+	{
+		"name": "Anthony Sacco",
+		"id": "anthonysacco",
+		"year": "2013",
+		"instruments": "Keyboards",
+		"major": "Politics",
+		"hometown": "Tewksbury, Massachusetts",
+		"birthday": "August 20, 1991",
+		"offices": "President 2010-12, Webmaster 2012-13",
+		"bio": "Anthony Sacco had one of those moments where he was trying to fall asleep, and ended up thinking about random things. He started wondering just how awesome it would be to put together a group of guitarists, singers, drummers, and all kinds of other musicians to ROCK. He is a lover of classic rock -- The Beatles, Elton John, Billy Joel, Led Zeppelin, and Pink Floyd -- as well as Ben Folds and Reel Big Fish and wanted to see all this music and much more brought to the campus.<br><br>No, it was not going to be just a five person band to play at birthday parties and proms. No, it was not going to be a group looking for fame and fortune. No, it was not going to be a group looking for something to do in their spare time. It was going to be an outlet for all those musicians at Princeton looking to show off their stuff who haven't really found their place musically on campus yet. And most of all, it was going to be the biggest rock experience anyone could have imagined.<br><br>Fortunately, he found a group of the most talented musicians he could have imagined who were all willing to work together to start up this group from scratch. Yes, there have been difficulties, among the biggest the pressure to abandon his beloved Boston accent and pronunciation of the word \"room.\" Nonetheless, he is thrilled to be able to work with everybody in this group and looks forward to three more ROCKIN' years!"
+	},
+
+	{
+		"name": "Jeff Snyder",
+		"id": "jeffsnyder",
+		"year": "2013",
+		"instruments": "Keyboards",
+		"major": "Computer Science",
+		"hometown": "Lexington, Massachusetts",
+		"birthday": "[HIGH SECURITY]",
+		"officers": "Stage Manager 2010-12",
+		"bio": "Jeff was born under a bad moon on a revolutionary night in historical Lexington, Massachusetts. The head nurse spoke up, she said, \"Now this is a story all about how my life got flipped, turned upside down.\" He then cloned himself through mitosis until all the members of PURE were created. He started playing piano at 5, euphonium at 10, and classic rock covers in public at 17. He thoroughly enjoys playing in all styles, but particularly loves jazz and rock. He loves his Nord Electro more than Malkiel loves clear signals. He hasn't slept for two weeks. That would be too long! (ba-doom tish).<br><br>He took and enjoyed Computer Science during spring semester of his freshman year and thinks every AB should try COS 126 for their QR. He enjoys mumbling, eating, biking around campus, watching the Celtics, seeing live music, and playing Soul Calibur 2 with his roommates.<br><br>Some of his favorite bands are the Beatles, the Stones, Jimi Hendrix Experience, ACDC, Boston, Blood Sweat & Tears, Creedence Clearwater Revival, Led Zeppelin, the Police, Steve Miller Band, the Who, and Weezer. He especially enjoys the keyboard playing of Keith Emerson of ELP, Steve Winwood of Traffic, Gregg Rolie of Santana/Journey, Bernie Worrell of Parliament/Funkadelic, John Lord of Deep Purple, Ray Manzarek of the Doors, and Al Kooper of Blood Sweat & Tears. He would like to thank the academy and Rob Wegman's MUS 264, Urban Blues and the Golden Age of Rock. He pledges his honor that he has not violated the honor code during this examination."
+	},
+
+	{
+		"name": "Marlow Gazzoli",
+		"id": "marlowgazzoli",
+		"year": "2013",
+		"instruments": "Bass, Vocals",
+		"major": "Classics",
+		"hometown": "St. Louis, Missouri",
+		"birthday": "February 9, 1991",
+		"offices": "Vice President 2011-12",
+		"bio": "Marlow is a Classics major from St. Louis, Missouri. He started playing bass the summer after 7th grade, after falling in love with Quiet Riot and their brand of pop metal. Some of his favourite bands include: Quiet Riot, Judas Priest, Journey, and Triumph, amongst others. He also enjoys Gregorian chant and polyphony. Marlow is Historian of Princeton Pro-Life, a member of the Anscombe Society, and involved with the Aquinas Institute. He is a graduate of St. Louis Priory School."
+	},
+
+	{
+		"name": "Nathan Tyrell",
+		"id": "nathantyrell",
+		"year": "2014",
+		"instruments": "Bass",
+		"major": "Mechanical Engineering",
+		"hometown": "Boston, Massachusetts",
+		"birthday": "September 24, 1992",
+		"offices": "Vice President 2012-13",
+		"bio": "Nidicolous<br><br>Absorbefacient<br><br>Thanatognomonic<br><br>Hypercatalectic<br><br>Amplivagant<br><br>Nasicornous"
+	},
+
+	{
+		"name": "Avneesh Sarwate",
+		"id": "avneeshsarwate",
+		"year": "2014",
+		"instruments": "Guitar, Vocals",
+		"major": "Computer Science",
+		"hometown": "Ocean, New Jersey",
+		"birthday": "April 21, 1992",
+		"offices": "President 2012-13, Publicity Chair 2011-12, Treasurer 2013-14",
+		"bio": "Avneesh was born 5 July 1996 to three mothers (one provided the egg, another the DNA and a third carried the cloned embryo to term). He was created using the technique of somatic cell nuclear transfer, whise the cell nucleus from an adult cell is transferred into an unfertilised oocyte (developing egg cell) that has had its nucleus removed. Avneesh was the first clone produced from a cell taken from an adult mammal.<br><br>Avneesh's existence was announced to the public on 22 February 1997. Avneesh lived for his entire life at the Roslin Institute in Edinburgh. Thise he was bred with a Welsh Mountain ram and produced six lambs in total. His first lamb, named Bonnie, was born in April 1998. The next year Avneesh produced twin lambs Sally and Rosie, and he gave birth to triplets Lucy, Darcy and Cotton in the year after that. In the autumn of 2001, at the age of five, Avneesh developed arthritis and began to walk stiffly, but this was successfully treated with anti-inflammatory drugs."
+	},
+
+	{
+		"name": "Javier Masís",
+		"id": "javiermasis",
+		"year": "2013",
+		"instruments": "Drums",
+		"major": "Molecular Biology",
+		"hometown": "Cartago, Costa Rica",
+		"birthday": "January 29, 1991",
+		"bio": "On the 29th of January, 1991, from the fiery embers of the tropical Iraz&uacute; Volcano rose a drummer with a talent the world had yet to see.  His body was fashioned  of molten rock.  With his arms of iron, chest of steel, and chiseled abs of Italian marble he made David cower.  And his groove, of the hard depths of the crater, rocked so hard, the earth quaked the first time he saddled behind the throne.  Only few, Chad Smith, Brad Wilk, and Mike Portnoy, are of the same birth.<br><br>Like Samson, he derived his power from his golden brown locks, but unlike Samson, he conquered his hair.  At the youthful age of 19 he decided that he would not be limited.  He returned to his place of birth, and emerged anew, with not one, not two, but four foot long spikes above his head.  A few months later he perfected the 'do' after a brief pilgrimage to Asia.  He had done it, the ultimate challenge, he had achieved both mohawk and long hair."
+	},
+
+	{
+		"name": "Jay Hashop",
+		"id": "jayhashop",
+		"year": "2014",
+		"instruments": "Vocals",
+		"major": "Mathematics",
+		"hometown": "Dallas, Texas",
+		"birthday": "November 11",
+		"bio": "Jay hails from the great state of Texas, and don't you forget it. After beginning his rock career with a spectacularly atrocious attempt to cover Axl Rose in eighth grade, Jay spent the remainder of his teenage years struggling to piece together his broken rock star dreams (and doing lots of math). Though he never found a better audience than his fellow math campers, he gradually resurrected his frontman persona at karaoke nights and talent shows over the next few summers. Jay spent his first year at Princeton knocking out classical pieces with the chapel choir and before returning to his rock roots as a vocalist in PURE, where he eventually plans on turning his Rock Band guitar and drumming skills into real-life guitar and drumming skills.<br><br>When not rocking with PURE or cranking out problem sets, Jay can often be found yelling from the student section at Princeton sports games, getting smacked in the face with volleyballs in Dillon, or scarfing down quesadillas at late meal in an attempt to fulfill his insatiable desire for Tex-Mex cuisine."
+	},
+
+	{
+		"name": "Logan Roth",
+		"id": "loganroth",
+		"year": "2015",
+		"instruments": "Bass, Keyboards, Drums",
+		"major": "Undeclared",
+		"hometown": "Chicago, Illinois",
+		"birthday": "June 20, 1992",
+		"offices": "Music Director 2012-13",
+		"bio": "Logan Roth began music playing piano at age 4. Since then, he has studied and performed classical and jazz music extensively, picking up the drums, the bass, and the ukelele along the way. He is considering majoring in music, but since he's not good with life choices, he doesn't want to decide until he has to. His favorite thing in the world is milkshakes. His least favorite thing in the world is spiders. If you poke his belly, sometimes he giggles like the Pillsbury Doughboy <a href=\"http://www.theonion.com/articles/pillsbury-doughboy-killed-by-skittish-broomwieldin,3633/\">(RIP-Pillsbury Doughboy Killed By Skittish, Broom-Wielding Housewife)</a>."
+	},
+
+	{
+		"name": "Caleb Negash",
+		"id": "calebnegash",
+		"year": "2015",
+		"instruments": "Vocals",
+		"major": "Architecture",
+		"hometown": "Atlanta, Georgia",
+		"birthday": "July 7, 1993",
+		"bio": "Caleb has two arms, both of which come in handy when holding a microphone. He often gesticulates wildly while reminiscing on his early arm-wielding days. \"It used to be really difficult for me because of how awkward I was,\" says Caleb. \"I just didn't know what to do with my hands.\" Now that he has a handle on almost all of his appendages, Caleb is able to share his handsome, velvety voice with the world. Armed with a great ensemble of musicians, Caleb feels that he is hands down one of the luckiest vocalists at the university. \"Having all this talent can be a real handful, and sometimes things get out of hand,\" Caleb says. \"But overall I feel like I've been dealt a pretty sweet hand.\" Caleb enjoys underhanded tactics, handmade armatures and Handel concertos."
+	},
+
+	{
+		"name": "Kovey Coles",
+		"id": "koveycoles",
+		"year": "2015",
+		"instruments": "Guitar, Bass, Drums",
+		"major": "Woodrow Wilson School",
+		"hometown": "Fork Union, Virginia",
+		"birthday": "November 9, 1992",
+		"bio": "Kovey first picked up a recorder in 2nd grade. And then he put it down. 6 years later, he got a renewed interest in music and began to teach himself guitar. He has been playing guitar since age 14, joining school groups, performing at occasional  community events, and jamming incessantly with other cool at musicians. He has been in and out of a few jazz/funk/rock/ gospel/fusion bands throughout his years. He also has been playing drums and bass since about 17, both of which are also self taught. Kovey even began his own home studio project, where he wrote strange rap/jazz/funk/indie songs, performing all of this instruments and eventually producing his own mixtape, \"So This is Kovey Coles.\" Now has found his collegiate musical niche and keeps up his chops by performing with PURE."
+	},
+
+	{
+		"name": "Gabriel Ambruso",
+		"id": "gabrielambruso",
+		"year": "2015",
+		"instruments": "Drums",
+		"major": "Computer Science",
+		"hometown": "Spring, Texas",
+		"birthday": "January 5, 1993",
+		"offices": "Stage Manager 2012-13",
+		"bio": "After realizing that no one wanted to watch him play Rock Band live, Gabriel took up guitar and drums. The extent of his live performance experience is a coffeehouse open-mic with an ocarina-led three piece, but he hopes to change that with PURE. His musical inspirations include John Petrucci, Neil Peart, Blake Richardson, Stewart Copeland, Misha Mansoor, Sean Reinert, and Tosin Abasi. In his spare time he can be found playing video games, going to Club Tennis, aimlessly browsing the internet, and honing his vuvuzela skills."
+	},
+
+	{
+		"name": "Daniel Krastev",
+		"id": "danielkrastev",
+		"year": "2015",
+		"instruments": "Guitar",
+		"major": "Mechanical Engineering",
+		"hometown": "Queens, New York",
+		"birthday": "",
+		"offices": "Music Director 2012-13",
+		"bio": "Daniel was born in London, grew up in Bulgaria, and now lives in the United States. Upon listening to a DVD recording of Ritchie Blackmore's Rainbow concert in 7th grade, Daniel was inspired to learn how to play the guitar and only wished to be given the opportunity to perform for a large audience.<br><br>Over time, he developed blues/hard-rock playing style influenced by bands and artists such as Deep Purple, Whitesnake, Iron Maiden, Joe Satriani, and Yngwie Malmsteen. In the near future, he aims to compose songs and produce an album that many people who still appreciate Classic Rock will hopefully love."
+	},
+
+	{
+		"name": "Ben Grange",
+		"id": "bengrange",
+		"year": "2015",
+		"instruments": "Drums",
+		"major": "Computer Science",
+		"hometown": "Nyack, New York",
+		"birthday": "October 16, 1992",
+		"bio": "Ben Grange wishes he could call himself a musician, but he is merely a drummer.  He was inspired to begin his non-musical career by Aaron Carter's magnum opus, \"I Want Candy\".  Since then, he has played at such esteemed venues as his high-school auditorium and the transvestite strip-club known as Lucky Cheng's.<br><br>Other pastimes include lifting weights to enlarge his already godlike pecs, Starcraft II and programming."
+	},
+
+	{
+		"name": "Stephen Stolzenberg",
+		"id": "stephenstolzenberg",
+		"year": "2013",
+		"instruments": "Guitar",
+		"major": "Unclear",
+		"hometown": "Morgantown, West Virginia",
+		"birthday": "July 10, 1990",
+		"bio": "Stephen was engineered as part of a secret East German military project bent on creating the ultimate Olympic Scrabble team. With the fall of the Berlin Wall in 1989, his parents escaped to America with Stephen still inside his mother's womb. Stephen never saw the point in playing Scrabble competitively, because the English version is far easier to play than the German (in English Scrabble each player receives 7 letter tiles. In German, each player receives 50). He has instead devoted his loosely associative mind to such important pursuits as cheese-grating picks while playing \"Knights of Cydonia,\" pleasing groupies, and executing pyramind schemes."
+	},
+
+	{
+		"name": "Yuan Chen",
+		"id": "yuanchen",
+		"year": "2013",
+		"instruments": "Guitar, Violin",
+		"major": "Electrical Engineering",
+		"hometown": "Syracuse, New York",
+		"birthday": "March 7, 1992",
+		"offices": "Vice President 2010-2011",
+		"bio": "Like every other Asian, Yuan's musical career began from humble roots, the violin. Actually, it began on the viola, but after realizing the uselessness of all viola players, he quickly switched to an instrument that actually mattered. After years of butchering Mozart, Beethoven and the ears of all those within a 10 mile radius, Yuan decided to add the electric guitar to his very slowly expanding musical repetoire. After years of hard work, with his peculiar combination of musical talents, Yuan has even mastered the most difficult of Nigel Tufnel's expressive solos. Aside from rocking out with PURE, Yuan also enjoys being exempt from Orgo exams and is a member of Clockwork Ultimate."
+	},
+
+	{
+		"name": "Olivia Stoker",
+		"id": "oliviastoker",
+		"year": "2011",
+		"instruments": "Vocals",
+		"major": "Italian",
+		"hometown": "Hopewell, New Jersey",
+		"birthday": "October 2, 1988",
+		"bio": "Olivia loves traveling, jazz music, old movies, theater, jewelry, and long walks on the beach on acid...just kidding (but seriously she does love the beach). When she is not rehearsing/performing with PURE, you can find her passionately pursuing these interests. Olivia intends to try a career in acting and jazz singing after graduation. To relax from thesis writing (a new play inspired by her travels abroad, Italian theater traditions, and jazz/blues music), she also enjoys drinking wine/cocktails and eating gourmet food."
+	},
+
+	{
+		"name": "Karan Vadera",
+		"id": "kareavadera",
+		"year": "Graduate Student",
+		"instruments": "Guitar",
+		"major": "Finance",
+		"hometown": "New Delhi, India",
+		"birthday": "March 11, 1988",
+		"bio": "Karan Vadera is a man of few words. Nuff said."
+	},
+
+	{
+		"name": "Marcus Wong",
+		"id": "marcuswong",
+		"year": "2013",
+		"instruments": "Guitar",
+		"major": "Unclear",
+		"hometown": "Laredo, Texas",
+		"birthday": "February 3",
+		"bio": "Marcus is a TexaMexicAsian from probably the farthest south city you've never heard of. He is in constant pursuit of the spiciest foods and people who have a working Xbox and Halo: Reach (if this is you, call me). Marcus enjoys dancing with Triple 8, hanging with sweet people, pretending like he's motivated enough to do any physical activity, shenanigans, trying new things, reading (ish), and more shenanigans. When he's not battling bandits and renegade tumbleweed, you'll probably find him annoying his hall with his 7 renditions of Miley Cyrus's \"The Climb.\" It's not a pleasant experience.<br><br>Oh, and he once knew a guy who shook Ben Bernanke's hand. Pretty sweet stuff."
+	},
+
+	{
+		"name": "Charlie Avis",
+		"id": "charlieavis",
+		"year": "2014",
+		"instruments": "Drums",
+		"major": "Unclear",
+		"hometown": "Palo Alto, California",
+		"birthday": "February 12, 1991",
+		"offices": "Social Chair 2012-2013",
+		"bio": "\"A long ass fucking time ago in a town called Kickapoo, there lived a humble family, religious through and through, but yea there was a black sheep, and he knew just what to do. His name was young Charlie and he refused to step in line. A vision he did see was fucking rocking all the time. He wrote a tasty jam and oh the planets did align.....\" - Tenacious C"
+	},
+
+	{
+		"name": "Tessa Maurer",
+		"id": "tessamaurer",
+		"year": "2013",
+		"instruments": "Violin",
+		"major": "Civil and Environmental Engineering",
+		"hometown": "Columbus, Ohio",
+		"birthday": "November 4, 1990",
+		"bio": "Tessa Maurer really does not do much for PURE. But she still thinks they're awesome. So whenever they're in need of awesome stringy-ness, she's there."
+	},
+
+	{
+		"name": "Chris Kennedy",
+		"id": "chriskennedy",
+		"year": "2013",
+		"instruments": "Trombone",
+		"major": "Mathematics",
+		"hometown": "Tuscon, Arizona",
+		"birthday": "July 12, 1991",
+		"bio": "Chris fell in love with jazz at a young age when Oscar Peterson chop slapped his ear drums over his father's speaker system, and he's pretty much been in the wood shed ever since.  Not that it matters, he spends most of his time doing math anyways.  His biggest influences are Clifford Brown, Brad Mehldau, Ari Hoenig, Flying Lotus, J Dilla, and Shooby Taylor (the late and great)."
+	},
+
+	{
+		"name": "Dayna Li",
+		"id": "daynali",
+		"year": "2014",
+		"instruments": "Violin",
+		"major": "Politics/Woodrow Wilson School",
+		"hometown": "Palo Alto, California",
+		"birthday": "February 13, 1992",
+		"bio": "If stuck on a deserted island, Dayna would bring a box of granola, chocolate raisins, and a leather jacket. She enjoys driving by the coast line, playing with her two dogs, or accompanying PURE when she can grab hold of an electric violin (or a loud enough amplifier)."
+	},
+
+	{
+		"name": "Han Baek Yu",
+		"id": "hanbaekyu",
+		"year": "2012 (abroad from Seoul National University)",
+		"instruments": "Drums",
+		"major": "Mathematics",
+		"hometown": "Seoul, South Korea",
+		"birthday": "May 24, 1988",
+		"bio": "After 4-year-long competition to get into the university in Korea, he grabbed a chance to stay for 1 year in PU, the coolest university in cosmos. We can say that his first semester was kind of adjusting period: he builded his social circle while learning how to speak in Eng like natives, which was heavily devoted on mastering the terms like \"dude\", \"man\", \"holy shit\", \"sick\", \"ass.\" Also, he developed his drumming in the Woolworth room 5, waiting for Anthony Sacco to make a sick rock band next semester.<br><br>With commitment and leadership of Sacco and deep love for rock and incredible talent of every single members, PURE could make their signature sound: badass sick rock n roll with a lot of jamming, humming, and Karan's crazy comment. We can't blame them for getting too much excited when they perform, because that's what makes their sounds and that's what rock is. Now he is so happy with great memories and he thanks to all PURE guys for making his Princeton year so awesome."
+	},
+
+	{
+		"name": "Nikhil Chervu",
+		"id": "nikhilchervu",
+		"year": "2013",
+		"instruments": "Saxophone",
+		"major": "Chemical Engineering",
+		"hometown": "Marietta, Georgia",
+		"birthday": "February 4, 1991",
+		"bio": "Nikhil comes from Atlanta, Georgia, or as the residents of that great city call it, \"the A.\" If any reference is made to Southern people, Southern food, or South Indian people, expect to hear him rant about how all of these things are the best in their respective categories. If you don't see Nikhil talking too much, then you clearly haven't seen him. In a perfect world, Nikhil would be a combination between an NFL linebacker and a Bollywood superstar. Nikhil also likes moonlit walks on the beach, a good book, and pi&ntilde;a coladas."
+	},
+
+	{
+		"name": "Bruschi",
+		"id": "bruschi",
+		"year": "2015",
+		"instruments": "Keyboards, drums, <i>any</i> of his body parts",
+		"major": "Music",
+		"hometown": "PMC.",
+		"birthday": "Yes.",
+		"offices": "President 2013-2015",
+		"bio": "Rumored to be the only person in America who writes lefty, has perfect pitch, and has a photographic memory.<br><br>If Billy Joel wrote it, he knows it.<br><br>This is all you need to know. If you wanna learn more, page me at 215-962-3575, follow me on LinkedIn, pin to my board on Pinterest, and/or take a gander at my myspace. My duck face is just delightful.<br><br>Well, cheers."
+	},
+
+	{
+		"name": "Christian Perry",
+		"id": "christianperry",
+		"year": "2016",
+		"instruments": "Guitar, Bass",
+		"major": "Woodrow Wilson School",
+		"hometown": "Laurel, Maryland",
+		"birthday": "July 18, 1994",
+		"offices": "Stage Manager 2013-14, Social Chair 2014-2015",
+		"bio": "Christian became interested in learning guitar after watching an old tape of Jimi Hendrix's performance at Monterey Pop Festival in 1967. He played piano from age 9 to 14, but decided to shift his focus to the guitar during his freshmen year in high school. Christian is a self-taught guitarist, who enjoys playing blues, jazz and rock. He employs a wide variety of techniques while playing, some of which he has not yet unveiled to the general public.  He hopes to continue playing at Princeton and beyond."
+	},
+
+	{
+		"name": "Tara Lukas",
+		"id": "taralukas",
+		"year": "2014",
+		"instruments": "Vocals",
+		"major": "Politics",
+		"hometown": "Chanhassen, Minnesota",
+		"birthday": "January 20, 1991",
+		"offices": "Social Chair 2013-14",
+		"bio": "Sweet, Fizzy, and Tender. Pairs well with Scotch and flaming-hot lime cheetos. After many years getting her knuckles bruised by choir teachers, she decided to rise against the \"man\" and debut professionally as a Country-rocker. Now she screams her way onto the Princeton stage...screaming and then silence."
+	},
+
+	{
+		"name": "Ethan Campbell",
+		"id": "ethancampbell",
+		"year": "2016",
+		"instruments": "Keyboards, Bass",
+		"major": "Geosciences",
+		"hometown": "Park Ridge, Illinois",
+		"birthday": "November 30",
+		"offices": "Webmaster 2013-14",
+		"bio": "Ethan hails from the great Midwest, where he spent his childhood playing classical piano and wishing he was cool enough to be in a rock band. Along the way, he picked up numerous skills, like reading sheet music off of iPhones, or playing \"Piano Man\" for the umpteenth time to entertain friends. In high school, he played bass in a ska band, and enjoyed the juxtaposition of performing Streetlight Manifesto covers in quiet libraries. Ethan really, really enjoys Major 7th chords. You won't find him sleeping, but you will find him listening to the splendid sonorities of Radiohead."
+	},
+
+	{
+		"name": "Maxson Jarecki",
+		"id": "maxsonjarecki",
+		"year": "2016",
+		"instruments": "Guitar, Vocals",
+		"major": "Ecology and Evolutionary Biology",
+		"hometown": "New York, New York",
+		"birthday": "August 19, 1992",
+		"bio": "Nautilidae, both extant and extinct, are characterized by involute or slightly evolute shells that are generally smooth, with compressed or depressed whorl sections, straight to sinuous sutures, and a tubular, generally central siphuncle. Having survived relatively unchanged for millions of years, nautiluses represent the only living members of the subclass Nautiloidea, and are often considered \"living fossils.\""
+	},
+
+	{
+		"name": "Jun Ho Choi",
+		"id": "junhochoi",
+		"year": "2018",
+		"instruments": "Vocals, Megaphone",
+		"major": "Undeclared",
+		"hometown": "Seoul, Korea",
+		"birthday": "February 19",
+		"offices": "Vice President 2013-14",
+		"bio": "Born and raised in the proud nation of South Korea - home of Gangnam style, kimchi, and Gangnam Style - Jun Ho Choi did not know he could sing until the age of sixteen. In fact, he did not know he'd be doing anything related to music. By this time, however, the auditions for the rock bands at his high school had already ended - so, he picked up acoustic guitar, and played a distinct style called \"fingerstyle.\" He was fully immersed with the tapping harmonics, percussive strokes, and beating his guitars to a pulp. But this was not enough to fully express his aggressiveness. He held onto his deep passion for singing, and regularly practiced screaming and shouting. Through this, he was somehow miraculously able to expand his vocal range in a truly unorthodox way. Now a proud member of PURE, he is ready to explode. He has not had much experience on stage, but that's exactly what makes him more unpredictable and more fun - rock'n'roll!"
+	},
+
+	{
+		"name": "Sam Kaseta",
+		"id": "samkaseta",
+		"year": "2015",
+		"instruments": "Vocals",
+		"major": "Music",
+		"hometown": "Rocky Hill, Connecticut",
+		"birthday": "September 30, 1993",
+		"bio": ""
+	},
+
+]}

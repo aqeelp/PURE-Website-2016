@@ -1,0 +1,322 @@
+{ "members": [
+
+	{
+		"name": "Adam Hudnut-Beumler",
+		"netid": "adamjh",
+		"year": "2017",
+		"instruments": "Vocals",
+		"major": "Religion",
+		"hometown": "Nashville, Tennessee",
+		"birthday": "June 22, 1994",
+		"bio": "yo"
+	},
+
+	{
+		"name": "Alex Santos",
+		"netid": "aesantos",
+		"year": "2019",
+		"instruments": "Bass",
+		"major": "Undeclared",
+		"hometown": "Somerville, Massachusetts",
+		"birthday": "August 1, 1997",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	},
+
+	{
+		"name": "Aqeel Phillips",
+		"netid": "aqeelp",
+		"year": "2017",
+		"instruments": "Bass, Drums, Guitar",
+		"major": "Computer Science",
+		"hometown": "Ardmore, Pennsylvania",
+		"birthday": "September 15, 1995",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	},
+
+	{
+		"name": "Avanthi Cole",
+		"netid": "amcole",
+		"year": "2018",
+		"instruments": "Vocals",
+		"major": "Undeclared",
+		"hometown": "Princeton, New Jersey",
+		"birthday": "January 22, 1997",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	},
+
+	{
+		"name": "Ben Taylor",
+		"netid": "bataylor",
+		"year": "2019",
+		"instruments": "Keyboards",
+		"major": "Undeclared",
+		"hometown": "Morgantown, West Virginia",
+		"birthday": "September 19, 1996",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	},
+
+	{
+		"name": "Brandon Joel Tan",
+		"netid": "btan",
+		"year": "2019",
+		"instruments": "Drums",
+		"major": "Undeclared",
+		"hometown": "Singapore, Singapore",
+		"birthday": "December 20, 1994",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	},
+
+	{
+		"name": "Connor Stonesifer",
+		"netid": "connorjs",
+		"year": "2016",
+		"instruments": "Vocals, Guitar",
+		"major": "Ecology and Evolutionary Biology",
+		"hometown": "Odessa, Florida",
+		"birthday": "June 9, 1994",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	},
+
+	{
+		"name": "Edmond Kim",
+		"netid": "ek7",
+		"year": "2018",
+		"instruments": "Guitar",
+		"major": "Undeclared",
+		"hometown": "Clarksville, Maryland",
+		"birthday": "November 11, 1995",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	},
+
+	{
+		"name": "Elliott Eglash",
+		"netid": "eeglash",
+		"year": "2017",
+		"instruments": "Alto Saxophone",
+		"major": "English",
+		"hometown": "Weston, Connecticut",
+		"birthday": "December 13, 1994",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	},
+
+	{
+		"name": "Ethan Gordon",
+		"netid": "egordon",
+		"year": "2017",
+		"instruments": "Keyboards",
+		"major": "Electrical Engineering",
+		"hometown": "Buffalo Grove, Illinois",
+		"birthday": "November 19, 1994",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	},
+
+	{
+		"name": "Fiora Elbers-Tibbetts",
+		"netid": "fiorae",
+		"year": "2018",
+		"instruments": "Vocals",
+		"major": "Undeclared",
+		"hometown": "Cambridge, Massachusetts",
+		"birthday": "February 27, 1996",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Frank Jiang",
+		"netid": "ffjiang",
+		"year": "2017",
+		"instruments": "Keyboards",
+		"major": "Computer Science",
+		"hometown": "West Pymble, Australia",
+		"birthday": "November 24, 1994",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	},
+
+	{
+		"name": "Guillermo Mart&iacute;nez Cabalga",
+		"netid": "gcabalga",
+		"year": "2017",
+		"instruments": "Guitar, Vocals",
+		"major": "Physics",
+		"hometown": "Espartinas, Spain",
+		"birthday": "May 13, 1994",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	},
+
+	{
+		"name": "Harrison Davis",
+		"netid": "hgdavis",
+		"year": "2018",
+		"instruments": "Vocals",
+		"major": "Undeclared",
+		"hometown": "New Haven, Connecticut",
+		"birthday": "May 7, 1996",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Jasper Jarecki",
+		"netid": "jarecki",
+		"year": "2019",
+		"instruments": "Guitar, Bass",
+		"major": "Undeclared",
+		"hometown": "New York, New York",
+		"birthday": "November 15, 1996",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Jeffrey Han",
+		"netid": "jh34",
+		"year": "2017",
+		"instruments": "Guitar, Cello",
+		"major": "Computer Science",
+		"hometown": "Malvern, Pennsylvania",
+		"birthday": "December 9, 1994",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Joshua Murray",
+		"netid": "jm43",
+		"year": "2018",
+		"instruments": "Bass",
+		"major": "Undeclared",
+		"hometown": "Scarborough, United Kingdom",
+		"birthday": "October 17, 1995",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Katie Frorer",
+		"netid": "kfrorer",
+		"year": "2018",
+		"instruments": "Vocals",
+		"major": "Undeclared",
+		"hometown": "Bryn Mawr, Pennsylvania",
+		"birthday": "January 27, 1996",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	},
+
+	{
+		"name": "Kieran Murphy",
+		"netid": "kpmurphy",
+		"year": "2019",
+		"instruments": "Keyboards, Vocals",
+		"major": "Undeclared",
+		"hometown": "Fruitland, Maryland",
+		"birthday": "June 20, 1997",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Kwasi Oppong-Badu",
+		"netid": "kyo",
+		"year": "2018",
+		"instruments": "Bass",
+		"major": "Undeclared",
+		"hometown": "Newark, New Jersey",
+		"birthday": "July 14, 1996",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Kyle Dhillon",
+		"netid": "kdhillon",
+		"year": "2016",
+		"instruments": "Drums",
+		"major": "Computer Science",
+		"hometown": "Atlanta, Georgia",
+		"birthday": "July 13, 1997",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Kyle Duffey",
+		"netid": "kduffey",
+		"year": "2019",
+		"instruments": "Guitar",
+		"major": "Undeclared",
+		"hometown": "Lake Orion, Michigan",
+		"birthday": "September 15, 1995",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Nicky Don",
+		"netid": "ndon",
+		"year": "2019",
+		"instruments": "Drums",
+		"major": "Undeclared",
+		"hometown": "Miami, Florida",
+		"birthday": "December 20, 1997",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Peter Russell",
+		"netid": "pjr2",
+		"year": "2019",
+		"instruments": "Tenor Saxophone",
+		"major": "Undeclared",
+		"hometown": "Riverside, Connecticut",
+		"birthday": "September 24, 1997",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Rebecca Mindel",
+		"netid": "rmindel",
+		"year": "2019",
+		"instruments": "Guitar, Vocals",
+		"major": "Undeclared",
+		"hometown": "Cherry Hill, New Jersey",
+		"birthday": "August 4, 1997",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Russell Burton",
+		"netid": "rhburton",
+		"year": "2017",
+		"instruments": "Drums",
+		"major": "Physics",
+		"hometown": "Neenah, Wisconsin",
+		"birthday": "July 28, 1994",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Tyler Nellesen",
+		"netid": "nellesen",
+		"year": "2017",
+		"instruments": "Guitar",
+		"major": "Mathematics",
+		"hometown": "Perris, California",
+		"birthday": "November 1, 1994",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Wonshik Shin",
+		"netid": "wshin",
+		"year": "2019",
+		"instruments": "Vocals",
+		"major": "Undeclared",
+		"hometown": "Seoul, South Korea",
+		"birthday": "April 22, 1997",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}, 
+
+	{
+		"name": "Yotam Sagiv",
+		"netid": "ysagiv",
+		"year": "2018",
+		"instruments": "Guitar",
+		"major": "Computer Science",
+		"hometown": "Amsterdam, Netherlands",
+		"birthday": "August 30, 1995",
+		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+	}
+
+]}

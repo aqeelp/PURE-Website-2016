@@ -1,0 +1,143 @@
+* {
+	font-family: "Roboto";
+}
+
+/* h1, h2 {
+	font-family: "Courgette";
+}*/
+
+h1, h2, .navbar-brand, h1 span.text-primary, h1 span.smaller {
+	font-family: "Rock Salt";
+}
+
+h1 {
+	font-size: 2em;
+	text-shadow: 2px 2px 2px #2b3e50;
+}
+
+h1 span.smaller {
+	font-size: 0.7em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+body {
+	background-image: url("../img/bg_pattern.png");
+	background-repeat: no-repeat;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+.navbar, .dropdown-menu {
+	box-shadow: 0px 1px 5px #2b3e50; 
+}
+
+#invisible-spacer {
+	visibility: hidden;
+}
+
+#events-header {
+	margin-top: 0px;
+}
+
+h5.event-title {
+	font-size: 1.1em;
+	margin: 0px;
+	padding-bottom: 5px;
+}
+
+.dark-bg h1, .dark-bg h2, .dark-bg h3, .dark-bg h4, .dark-bg h5, .dark-bg p {
+	text-shadow: 2px 2px 7px #000000;
+}
+
+p.event-info {
+	margin: 0px;
+	font-size: 0.9em;
+	padding-bottom: 5px;
+}
+
+#upcoming-shows-list {
+	padding-top: 20px;
+	padding-left: 7.5%;
+  	padding-right: 7%;
+}
+
+#repertoire-content {
+	margin-bottom: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#repertoire-table {
+	width: 60%;
+	margin: auto;
+}
+
+#repertoire-table thead tr {
+	background-color: #df691a;
+}
+
+a.member.list-group-item:hover {
+	background-color: #df691a;
+}
+
+.officer-column {
+	text-align: center;
+}
+
+#member-modal-info-container h4 {
+	margin-bottom: 0px;
+}
+
+img.officer-portrait {
+	height: 300px;
+	width: auto;
+	max-width: 200px;
+	margin: auto;
+}
+
+img.banner-photo {
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+.jumbotron {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+@media (min-width: 992px) {
+	#member-image-container img {
+		padding-left: 10%;
+		padding-right: 10%;
+		width: 100%;
+		height: auto;
+	}
+
+	#member-image-container {
+	  	text-align: left;
+	}
+}
+
+@media (max-width: 992px) {
+	#member-image-container img {
+		height: 300px;
+	  	width: auto;
+	}
+
+	#member-image-container {
+	  	text-align: center;
+	}
+
+	.side-portrait {
+		width: 50%;
+		margin: auto;
+	}
+}
