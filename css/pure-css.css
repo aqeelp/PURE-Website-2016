@@ -135,6 +135,10 @@ img.banner-photo {
 		display: none;
 	}
 
+	.carousel-indicators {
+		display: none;
+	}
+
 	.index-header {
 		font-size: 1.7em;
 	}
