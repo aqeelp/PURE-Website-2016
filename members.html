@@ -31,6 +31,7 @@
 
     <script type="text/javascript">
       $(document).ready(function() {
+        console.log("something happening");
         $.getJSON("./json/member_data.json", function(json) {
           $(".member").click(function() {
             for (var i = 0; i < json.members.length; i++) {
@@ -42,7 +43,8 @@
                 $("#modal-major").html(member.major);
                 $("#modal-hometown").html(member.hometown);
                 $("#modal-birthday").html(member.birthday);
-                $("#modal-bio").html(member.bio);
+                // This replaces the instances of '{NEWLINE}' in the JSON with a line break
+                $("#modal-bio").html(member.bio.replace(/{NEWLINE}/g, '<br>'));
 
                 var filepath = "./img/members/" + member.netid + ".jpg";
                 $("#modal-image").attr("src", filepath);
@@ -85,9 +87,9 @@
             </li>
 
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="shows">Shows <span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="shows">Events <span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="shows">
-                <li><a href="./upcoming_shows.html">Upcoming Shows</a></li>
+                <li><a href="./upcoming_events.html">Upcoming Events</a></li>
                 <li><a href="./past_shows.html">Past Shows</a></li>
               </ul>
             </li>
@@ -120,7 +122,7 @@
 
             <div class="bs-component">
               <div class="well well-sm" style="margin-left: 5%; margin-right: 5%;">
-                <center><img class="banner-photo" src="./img/nov_2015_group.jpg"></center>
+                <center><img class="banner-photo" src="./img/banners/group_silly.jpg"></center>
               </div>
             </div>
           </div>
@@ -133,19 +135,18 @@
           <div class="col-lg-4 col-md-4">
             <div class="bs-component">
               <div class="list-group">
-                <div class="list-group-item"><h4>Vocalists</h4></div>
+                <div class="list-group-item"><h4>Vocalists</h4><hr/></div>
                 <a class="list-group-item member" href="#" id="adamjh" data-toggle="modal" data-target="#member-info-modal">Adam Hudnut-Beumler '17</a>
                 <a class="list-group-item member" href="#" id="amcole" data-toggle="modal" data-target="#member-info-modal">Avanthi Cole '18</a>
-                <a class="list-group-item member" href="#" id="connorjs" data-toggle="modal" data-target="#member-info-modal">Connor Stonesifer '16</a>
+                <a class="list-group-item member" href="#" id="jjang" data-toggle="modal" data-target="#member-info-modal">Ben Jang '18</a>
                 <a class="list-group-item member" href="#" id="fiorae" data-toggle="modal" data-target="#member-info-modal">Fiora Elbers-Tibbitts '18</a>
                 <a class="list-group-item member" href="#" id="kfrorer" data-toggle="modal" data-target="#member-info-modal">Katie Frorer '18</a>
                 <a class="list-group-item member" href="#" id="wshin" data-toggle="modal" data-target="#member-info-modal">Wonshik Shin '19</a>
               </div>
 
               <div class="list-group">
-                <div class="list-group-item"><h4>Drummers</h4></div>
+                <div class="list-group-item"><h4>Drummers</h4><hr/></div>
                 <a class="list-group-item member" href="#" id="btan" data-toggle="modal" data-target="#member-info-modal">Brandon Joel Tan '19</a>
-                <a class="list-group-item member" href="#" id="kdhillon" data-toggle="modal" data-target="#member-info-modal">Kyle Dhillon '16</a>
                 <a class="list-group-item member" href="#" id="ndon" data-toggle="modal" data-target="#member-info-modal">Nicky Don '19</a>
                 <a class="list-group-item member" href="#" id="rhburton" data-toggle="modal" data-target="#member-info-modal">Russell Burton '17</a>
               </div>
@@ -155,7 +156,7 @@
           <div class="col-lg-4 col-md-4">
             <div class="bs-component">
               <div class="list-group">
-                <div class="list-group-item"><h4>Guitarists</h4></div>
+                <div class="list-group-item"><h4>Guitarists</h4><hr/></div>
                 <a class="list-group-item member" href="#" id="ek7" data-toggle="modal" data-target="#member-info-modal">Edmond Kim '18</a>
                 <a class="list-group-item member" href="#" id="gcabalga" data-toggle="modal" data-target="#member-info-modal">Guillermo Mart&iacute;nez Cabalga '17</a>
                 <a class="list-group-item member" href="#" id="hgdavis" data-toggle="modal" data-target="#member-info-modal">Harrison Davis '18</a>
@@ -168,7 +169,7 @@
               </div>
 
               <div class="list-group">
-                <div class="list-group-item"><h4>Horns</h4></div>
+                <div class="list-group-item"><h4>Horns</h4><hr/></div>
                 <a class="list-group-item member" href="#" id="eeglash" data-toggle="modal" data-target="#member-info-modal">Elliott Eglash '17</a>
                 <a class="list-group-item member" href="#" id="pjr2" data-toggle="modal" data-target="#member-info-modal">Peter Russell '19</a>
               </div>
@@ -178,7 +179,7 @@
           <div class="col-lg-4 col-md-4">
             <div class="bs-component">
               <div class="list-group">
-                <li class="list-group-item"><h4>Bassists</h4></li>
+                <li class="list-group-item"><h4>Bassists</h4><hr/></li>
                 <a class="list-group-item member" href="#" id="aesantos" data-toggle="modal" data-target="#member-info-modal">Alex Santos '19</a>
                 <a class="list-group-item member" href="#" id="aqeelp" data-toggle="modal" data-target="#member-info-modal">Aqeel Phillips '17</a>
                 <a class="list-group-item member" href="#" id="jm43" data-toggle="modal" data-target="#member-info-modal">Joshua Murray '18</a>
@@ -186,7 +187,7 @@
               </div>
 
               <div class="list-group">
-                <div class="list-group-item"><h4>Keyboardists</h4></div>
+                <div class="list-group-item"><h4>Keyboardists</h4><hr/></div>
                 <a class="list-group-item member" href="#" id="bataylor" data-toggle="modal" data-target="#member-info-modal">Ben Taylor '19</a>
                 <a class="list-group-item member" href="#" id="egordon" data-toggle="modal" data-target="#member-info-modal">Ethan Gordon '17</a>
                 <a class="list-group-item member" href="#" id="ffjiang" data-toggle="modal" data-target="#member-info-modal">Frank Jiang '17</a>
@@ -231,7 +232,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="page-header">
-              <h2 id="navs">Current Officers</h1>
+              <h2 id="navs" style="text-shadow: 2px 2px 2px #2b3e50;">Current Officers</h1>
             </div>
           </div>
         </div>

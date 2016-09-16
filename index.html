@@ -36,16 +36,13 @@
         var key = 'AIzaSyCR189RwM-LvazI3Es98OfbsJzWG8-ZWg4';
         var calID = '71gecvuqcthiqvuf5aibttqhfc@group.calendar.google.com';
         var now = new Date();
-
         var url = 'https://www.googleapis.com/calendar/v3/calendars/' + calID + '/events?key=' + key + '&singleEvents=true&maxResults=2&orderBy=startTime&timeMin=' + now.toISOString();
-
         $.ajax({
           type: 'GET',
           url: encodeURI(url),
           dataType: 'json',
           success: function(response) {
             response.items = response.items || [];
-
             for (var i = 0; i < response.items.length; i++) {
               var event = ('<div class="well well-sm"><h5 class="event-title">' + response.items[i].summary + '</h5>');
               var location = '<a href="';
@@ -56,7 +53,6 @@
               date = date.toDateString();
               event += ('<p class="event-info">' + date + '</p>');
               event += '</div>';
-
               $('#upcoming-events-container').append(event);
               // <p>Some placeholder</p>
             }
@@ -74,7 +70,6 @@
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <!-- <a href="./index.html" class="navbar-brand"><img id="logo" src="./img/logo_trans_white.png" /></a> -->
           <a href="./index.html" class="navbar-brand">PURE</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
@@ -98,9 +93,9 @@
             </li>
 
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="shows">Shows <span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="shows">Events <span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="shows">
-                <li><a href="./upcoming_shows.html">Upcoming Shows</a></li>
+                <li><a href="./upcoming_events.html">Upcoming Events</a></li>
                 <li><a href="./past_shows.html">Past Shows</a></li>
               </ul>
             </li>
@@ -123,7 +118,7 @@
         <div class="page-header" id="banner">
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-8">
-              <h1><span class="text-primary">P</span>rinceton <span class="text-primary">U</span>niversity <span class="text-primary">R</span>ock <span class="text-primary">E</span>nsemble</h1>
+              <h1 class="index-header"><span class="text-primary">P</span>rinceton <span class="text-primary">U</span>niversity <span class="text-primary">R</span>ock <span class="text-primary">E</span>nsemble</h1>
             </div>
         </div>
 
@@ -140,23 +135,29 @@
                   <ol class="carousel-indicators">
                     <li data-target="#main-slideshow" data-slide-to="0" class="active"></li>
                     <li data-target="#main-slideshow" data-slide-to="1"></li>
+                    <li data-target="#main-slideshow" data-slide-to="2"></li>
                   </ol>
 
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                      <!-- <img src="./img/nov_2015_performance.jpg" alt="PURE!" class="banner-photo"> -->
-                      <img src="https://unsplash.it/900/350/?random" class="banner-photo"/>
+                      <img src="./img/slideshow/TIP.png" alt="PURE!" class="banner-photo" />
                       <div class="carousel-caption dark-bg">
                         <p>PURE is Princeton's only official student organization that delivers all your favorite ROCK music straight to your ears. Browse our site for more info about the group and its members, and be sure to check back for updates on our upcoming shows.</p>
                       </div>
                     </div>
 
                     <div class="item">
-                      <!-- <img src="./img/nov_2015_group.jpg" alt="PURE!" class="banner-photo"> -->
-                      <img src="https://unsplash.it/910/353/?random" class="banner-photo"/>
+                      <img src="./img/slideshow/adam_avanthi.jpg" alt="PURE!" class="banner-photo" />
                       <div class="carousel-caption dark-bg">
                         <p>We play all types of rock music from Led Zeppelin to The Killers, The Rolling Stones to Rush. Each member brings his or her own unique tastes to the group, so those in our audiences are sure to hear something they enjoy.</p>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <img src="./img/slideshow/ben_hands.png" alt="PURE!" class="banner-photo" />
+                      <div class="carousel-caption dark-bg">
+                        <p>We have some of Princeton's most talented singers, drummers, guitarists, bassists, and keyboardists. If you're looking for a great show and music you're sure to recognize, then you won't want to miss our next concert!</p>
                       </div>
                     </div>
                   </div>
@@ -189,6 +190,8 @@
         <div class="row">
           <div class="col-lg-8 col-md-8">
             <div class="bs-component">
+              <a class="alert-big-link" href="./auditions.html"><div class="alert alert-warning" role="alert"><p>Auditions are approaching, and go on a first come, first serve basis - sign up today!</p></div></a>
+
               <p>The <span class="text-primary">Princeton University Rock Ensemble</span>, or <span class="text-primary">PURE</span>, is the first and only student rock group at Princeton! We are a completely student-run organization, and anybody, from guitarists to singers to violinists to lighting designers, is welcome. Whether you are a guitarist or drummer looking to rock out, a singer looking to show off your voice, a violinist or horn player who loves rock music, PURE is the group for you!</p>
 
               <p>PURE performs all kinds of rock music, ranging from The Beatles to Weezer, Van Halen to Red Hot Chili Peppers. If you interested in joining PURE, you are sure to find songs in which you will want to perform! If you are interested in hiring PURE, you can be sure that we will be able to tailor a personalized setlist out of our diverse <a href="repertoire.html">repertoire</a> to fit your event.</p>
